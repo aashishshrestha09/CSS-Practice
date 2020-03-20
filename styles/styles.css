@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  max-width: 300px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLY6YMw5XfaBGIRKsr-9C2XVMbJycWbX35u0sZdIUbdcQU8sYP&s");
+  margin: auto;
+}
+
+h1 {
+  color: green;
+}
+
+h1 a {
+  color: red;
+}
+
+h2 a:hover {
+  color: orange;
+}
+
+.chessboard {
+  border-radius: 30px;
+}
+
+ul li a:hover {
+  color: pink;
+  text-decoration: none;
+}
+
+.chessboard:hover {
+  -webkit-box-shadow: 36px 6px 155px 63px rgba(207,15,207,1);
+  -moz-box-shadow: 36px 6px 155px 63px rgba(207,15,207,1);
+  box-shadow: 36px 6px 155px 63px rgba(207,15,207,1);
+}
+
+.mate-in-one {
+  border-radius: 30px;
+  box-shadow: 5px 10px orange;
+}
+
+.mate-in-two {
+  box-shadow: 5px 10px yellow;
+}
